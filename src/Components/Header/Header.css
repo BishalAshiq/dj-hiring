@@ -1,0 +1,16 @@
+
+.header{
+  text-align: center;
+  background-color: rgba(245, 220, 203, 0.986);
+  color: rgb(47, 47, 47);
+  border-bottom: 2px solid lightgray;
+  padding: 10px;
+}
+.h1{
+     color: chocolate;
+     padding-top: 10px;
+}
+.land{
+ background-color: rgb(253, 247, 236);
+ border-radius: 25px;
+}
