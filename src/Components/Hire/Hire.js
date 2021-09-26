@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Person from '../Person/Person';
 import './Hire.css'
 const Hire = () => {
     const[persons, setPersons] = useState([])
+    const [cart, setCart] = useState([])
+    
     useEffect( ()=>{
         fetch('./tools.JSON')
         .then(res => res.json())
@@ -10,7 +13,8 @@ const Hire = () => {
     } , [])
     
     const handleAddToCart= (person) =>{
-          console.log('clicked');
+          const newCart= [...cart, person];
+          setCart(newCart);
     }
 
     return (
@@ -27,8 +31,7 @@ const Hire = () => {
                }
             </div>
             <div className="cart-container">
-                <h2>Hired List</h2>
-                <h4>Number of DJ: </h4>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
