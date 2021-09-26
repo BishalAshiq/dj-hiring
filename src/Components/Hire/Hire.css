@@ -1,4 +1,14 @@
 .hire-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
+.persons-container{
+    margin-left: 30px;
+    
+}
+.cart-container{
+    border-left: 2px solid lightgray;
+   padding-left: 5px;
+    margin-left: 60px;
+}
+
