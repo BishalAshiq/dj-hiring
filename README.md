@@ -1,6 +1,6 @@
 # TOMM0ROW-LAND 
 
-This project is for party lover people with [Come and Join the Party](https://github.com/facebook/create-react-app).
+This project is for party lover people with [Come and Join the Party](https://tommorow-land-bishal-ashiq-site.netlify.app/).
 
 ### Available Scripts
 
