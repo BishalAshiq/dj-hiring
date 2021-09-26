@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Person.css'
+import { SocialIcon } from 'react-social-icons';
 const Person = (props) => {
     // console.log(props);
     const{img, name, age, designation, hireCost} = props.person;
@@ -20,8 +21,13 @@ const Person = (props) => {
             onClick={() => props.handleAddToCart(props.person)}
             className="btn-cart"
             >{cartDj} Add to Cart
-            </button>
-           
+            </button> 
+            <br/>
+           <SocialIcon
+           className="linkdin"
+           bgColor="rgb(6, 131, 214)"
+            url="https://linkedin.com/in/jaketrent"></SocialIcon>
+           <SocialIcon url="https://jaketrent.com" network="tumblr"></SocialIcon>
             </div>
              
         </div>

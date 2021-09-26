@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# TOMM0ROW-LAND 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is for party lover people with [Come and Join the Party](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can see:
+
+### The Variation of Disco Joggers
+Basically we organize a tommorow land party, You all are invited by this fantastic website. You select those DJ, and our team get them.
+So no worries, feel free to come our party. 
+
 
 ### `npm start`
 
