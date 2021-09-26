@@ -2,22 +2,19 @@
 
 This project is for party lover people with [Come and Join the Party](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can see:
 
-### The Variation of Disco Joggers
-Basically we organize a tommorow land party, You all are invited by this fantastic website. You select those DJ, and our team get them.
+### `The Variation of Disco Joggers`
+ You select those DJ, and our team get them.
 So no worries, feel free to come our party. 
 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `SEO`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Basically we organize a tommorow land party, You all are invited by this fantastic website.
 
 ### `npm test`
 
